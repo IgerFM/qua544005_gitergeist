@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Pokemon Classic";
+    src: url(../fonts/Pokemon_Classic.tff) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pokemon Solid";
+    src: url(../fonts/Pokemon_Solid.tff) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pokemon Hollow";
+    src: url(../fonts/Pokemon_Hollow.tff) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: Pokemon Solid, Pokemon Hollow, Impact;
+    font-size: 64px;
+}
