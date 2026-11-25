@@ -29,9 +29,11 @@ def abrir_terminal(repositorio):
 
 #SECTION - Commitador
 def commitar(hoje):
-    auto.write(f'git add . && git commit -m "{hoje} | Auto-Commit (PC Senai)" && git push origin main')
+    auto.write(f'git add . && git commit -m "{hoje} | Auto-Commit (PC Senai)"')
     auto.press('enter')
-    auto.sleep(8)
+    auto.write(f'git push origin main')
+    auto.press('enter')
+    auto.sleep(5)
     auto.write('exit')
     auto.press('enter') #!SECTION
 
