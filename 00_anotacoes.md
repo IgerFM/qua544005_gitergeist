@@ -70,3 +70,10 @@
 
 #NOTE - O concorrente do bootstrap é o tailwind
 
+#SECTION - 26/11/25
+
+#NOTE - Não geramos o requirements ainda pois devemos ter mais 2 bibliotecas, sendo intaladas por "pip install pywebview pyinstaller"
+
+#NOTE - No caso de agora que temos interface grafica, para gerar o .exe utilizando o app.py utilizamos o o comando:
+
+#ANCHOR - pyinstaller --onefile --noconsole --name "Gitergeist v2.0" --icon "092.ico" --add-data "templates;templates" --add-data "static;static" app.py

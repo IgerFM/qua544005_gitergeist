@@ -1,25 +1,33 @@
 @font-face {
     font-family: "Pokemon Classic";
-    src: url(../fonts/Pokemon_Classic.tff) format("truetype");
+    src: url("../fonts/Pokemon_Classic.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Pokemon Solid";
-    src: url(../fonts/Pokemon_Solid.tff) format("truetype");
+    src: url("../fonts/Pokemon_Solid.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Pokemon Hollow";
-    src: url(../fonts/Pokemon_Hollow.tff) format("truetype");
+    src: url("../fonts/Pokemon_Hollow.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 h1 {
-    font-family: Pokemon Solid, Pokemon Hollow, Impact;
+    font-family:  Pokemon Hollow, Pokemon Solid, Impact;
     font-size: 64px;
+}
+
+input {
+    font-family: Pokemon Classic, Impact, Arial, sans-serif;
+}
+
+button {
+    font-family: Pokemon Classic, Impact, Arial, sans-serif !important;
 }
