@@ -40,7 +40,7 @@ def commitar(hoje):
 #SECTION - Rotas
 @app.route("/", methods = ['GET','POST'])
 def index():
-    hoje = date.today().strftime("%y%m%d")
+    hoje = date.today().strftime("%y/%m/%d")
     repositorio = None
     if request.method == 'POST':
         repositorio = request.form.get('repositorio','')
